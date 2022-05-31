@@ -1,18 +1,43 @@
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
+import * as GiIcons from "react-icons/gi";
+import * as TbIcons from "react-icons/tb";
 
 const SideBarData = [
     {
-        title: 'Home',
+        title: 'Clientes',
         path: '/',
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaUsers />,
         cName: 'nav-text'
     },
     {
-        title: 'Home',
+        title: 'Ingreso',
         path: '/',
-        icon: <AiIcons.AiFillHome />,
+        icon: <GiIcons.GiNotebook />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Cotización',
+        path: '/',
+        icon: <FaIcons.FaFileInvoiceDollar />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Facturación',
+        path: '/',
+        icon: <FaIcons.FaDollarSign />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Herramientas',
+        path: '/',
+        icon: <FaIcons.FaTools />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Informe',
+        path: '/',
+        icon: <TbIcons.TbReport />,
         cName: 'nav-text'
     },
     {
