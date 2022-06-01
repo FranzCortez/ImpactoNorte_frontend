@@ -1,0 +1,23 @@
+.bg{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.logo{
+    background-image: url(../img//Logo_IdN.png);
+    background-size: 70%;
+    background-position: center;
+    height: 8rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .logo{
+        background-size: 30%;
+        margin-top: 2rem;
+        height: 17rem;
+    }
+}
